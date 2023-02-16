@@ -11,7 +11,7 @@ import org.jsoup.nodes.Element;
 public class Crawler {
 	
 	public static void main(String[] args) {
-		String url = "https://www.youtube.com/";
+		String url = "https://sowatec.atlassian.net/wiki/home";
 		crawl(1, url, new ArrayList<String>());
 	}
 	
